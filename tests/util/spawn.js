@@ -1,6 +1,6 @@
 var spawn = require('child_process').spawn;
 var carrier = require('carrier');
-var _ = require('underscore');
+var _ = require('lodash');
 
 var defaultOptions = {
     command: /^win/.test(process.platform) ? 'casperjs.bat' : 'casperjs',

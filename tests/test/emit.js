@@ -1,4 +1,4 @@
-var _ = require('underscore');
+var _ = require('lodash');
 var expect = require('expect.js');
 
 describe('bootstrap/emit', function () {
