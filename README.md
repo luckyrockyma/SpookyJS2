@@ -1,8 +1,7 @@
-# SpookyJS
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+**This is to be a version of SpookyJS with fixes and likely some maintenance.**
 
-[![Join the chat at https://gitter.im/SpookyJS/SpookyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SpookyJS/SpookyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# SpookyJS 2
 
 Drive [CasperJS](http://casperjs.org/) from Node.js.
 
@@ -14,17 +13,17 @@ Casper's API, have a look at [PhantomJS
 
 ### Prerequisites
 
-* [Node.js](http://nodejs.org) >= 0.8
-* [PhantomJS](http://phantomjs.org/) >= 1.9
-* [CasperJS](http://casperjs.org/) >= 1.0
+* [Node.js](http://nodejs.org) >= 7.5.x async/await compatible
+* [PhantomJS](http://phantomjs.org/) >= 2.1
+* [CasperJS](http://casperjs.org/) >= 1.1.3
 
-SpookyJS is available from npm.
+SpookyJS 2 is available from npm.
 
 ``` shell
-$ npm install spooky
+$ npm install spooky2
 ```
-
-## Usage
+## (hereafter is the original SpookyJS documentation for now)
+## Usage 
 
 Read about how Spooky works in the
 [documentation](https://github.com/WaterfallEngineering/SpookyJS/wiki/Introduction).
