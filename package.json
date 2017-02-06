@@ -1,23 +1,23 @@
 {
-  "name": "spooky",
-  "version": "0.2.5",
-  "author": "Lon Ingram <lon@waterfallmobile.com>",
+  "name": "spooky2",
+  "version": "2.0.0",
+  "author": "Denis Volokhovskiy <den@sketchof.me>",
   "description": "Drive CasperJS from Node.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/WaterfallEngineering/SpookyJS.git"
+    "url": "http://github.com/rotaryden/SpookyJS2.git"
   },
   "main": "./lib/spooky.js",
   "scripts": {
     "test": "make test"
   },
   "dependencies": {
-    "underscore": "1.3.x",
-    "async": "0.1.x",
-    "tiny-jsonrpc": "0.2.x",
-    "carrier": "0.1.x",
-    "duplexer": "0.0.x",
-    "readable-stream": "~1.0.2"
+    "lodash": "^4.17.4",
+    "async": "^2.1.4",
+    "tiny-jsonrpc": "^2.0.1",
+    "carrier": "^0.3.0",
+    "duplexer3": "^0.1.4",
+    "readable-stream": "^2.2.2"
   },
   "devDependencies": {
     "mocha": "1.3.x",
